@@ -34,7 +34,7 @@ const Home1 = () => {
             About Us
           </div>
           <div class="capitalize inline-block md:w-full lg:w-[600px] lg:text-9xl sm:text-2xl md:text-2xl">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s
           </div>
         </div>
         <div className="relative flex flex-row w-[510px] h-[183px] text-xs text-text-color font-image-text about-image">
