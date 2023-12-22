@@ -55,11 +55,12 @@ const Home = () => {
     
     <div className="sm:w-1/2 flex justify-center sm:justify-end mt-4 sm:mt-0 mr-4 sm:mr-8 lg:mr-12">
       {/* First image */}
-      <img
-        className="w-[268px] h-[268px] object-cover"
-        alt=""
-        src="/"
-      />
+      <Image
+            src="/"
+            alt="Vector"
+            width={50}
+            height={50}
+          />
     </div> 
   </div>
 </div>
@@ -121,7 +122,7 @@ const Home = () => {
     <div className="sm:w-1/2 mt-8 sm:mt-0">
     <div className="flex flex-col items-end justify-start gap-[18px] text-left text-9xl ji">
             <div className="relative w-[567px] h-[136px] overflow-hidden shrink-0 journey-img">
-              
+              {/* Pending section */}
             </div>
           </div>
     </div>
@@ -150,11 +151,12 @@ const Home = () => {
     
     <div className="sm:w-1/2 flex justify-center sm:justify-end mt-4 sm:mt-0 mr-4 sm:mr-8 lg:mr-8 md-12">
       {/* First image */}
-      <img
-        className="w-[268px] h-[268px] object-cover"
-        alt=""
-        src="/spinny.gif"
-      />
+      <Image
+            src="/spinny.gif"
+            alt="Vector"
+            width={50}
+            height={50}
+          />
     </div> 
   </div>
 </div>
@@ -182,11 +184,12 @@ const Home = () => {
     
     <div className="sm:w-1/2 flex justify-center sm:justify-end mt-4 sm:mt-0 mr-4 sm:mr-8 lg:mr-8 pb-12">
       {/* First image */}
-      <img
-        className="w-[268px] h-[268px] object-cover"
-        alt=""
-        src="/"
-      />
+      <Image
+            src="/"
+            alt="Vector"
+            width={50}
+            height={50}
+          />
     </div> 
   </div>
 </div>
@@ -201,39 +204,91 @@ const Home = () => {
   </div>
   <div class="flex flex-wrap justify-center gap-4 sm:gap-8 mt-8">
     <div class="rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[100px] flex items-center justify-center p-1 box-border h-auto">
-      <div> <img src="/vector.svg" alt="" /></div>
+      <div> 
+        <Image
+            src="/vector.svg"
+            alt="Vector"
+            width={50}
+            height={50}
+          />
+        </div>
     </div>
 
     <div class="rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[100px] flex items-center justify-center p-1 box-border h-auto">
-      <div> <img src="/vector.svg" alt="" /></div>
+      <div> 
+        <Image
+            src="/vector.svg"
+            alt="Vector"
+            width={50}
+            height={50}
+          />
+        </div>
     </div>
 
     <div class="rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[100px] flex items-center justify-center p-1 box-border h-auto">
-      <div> <img src="/vector.svg" alt="" /></div>
+      <div> 
+        <Image
+            src="/vector.svg"
+            alt="Vector"
+            width={50}
+            height={50}
+          /></div>
     </div>
     
     <div class="rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[100px] flex items-center justify-center p-1 box-border h-auto">
-     <div> <img src="/vector.svg" alt="" /></div>
+     <div> 
+      <Image
+            src="/vector.svg"
+            alt="Vector"
+            width={50}
+            height={50}
+          />
+        </div>
     </div>
 
     <div class="rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[100px] flex items-center justify-center p-1 box-border h-auto">
-      <div> <img src="/vector.svg" alt="" /></div>
+      <div> <Image
+            src="/vector.svg"
+            alt="Vector"
+            width={50}
+            height={50}
+          /></div>
     </div>
     
     <div class="rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[100px] flex items-center justify-center p-1 box-border h-auto">
-      <div> <img src="/vector.svg" alt="" /></div>
+      <div> <Image
+            src="/vector.svg"
+            alt="Vector"
+            width={50}
+            height={50}
+          /></div>
     </div>
 
     <div class="rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[100px] flex items-center justify-center p-1 box-border h-auto">
-      <div> <img src="/vector.svg" alt="" /></div>
+      <div> <Image
+            src="/vector.svg"
+            alt="Vector"
+            width={50}
+            height={50}
+          /></div>
     </div>
     
     <div class="rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[100px] flex items-center justify-center p-1 box-border h-auto">
-      <div> <img src="/vector.svg" alt="" /></div>
+      <div> <Image
+            src="/vector.svg"
+            alt="Vector"
+            width={50}
+            height={50}
+          /></div>
     </div>
 
     <div class="rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[100px] flex items-center justify-center p-1 box-border h-auto">
-      <div> <img src="/vector.svg" alt="" /></div>
+      <div> <Image
+            src="/vector.svg"
+            alt="Vector"
+            width={50}
+            height={50}
+          /></div>
     </div>
 
   
