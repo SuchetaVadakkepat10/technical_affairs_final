@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  @apply leading-[normal] m-0;
+}
+*,
+::before,
+::after {
+  border-width: 0;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scrolling {
+  animation: scroll 40s linear infinite;
+}
+
+@media (max-width:426px)
+{
+  .sample
+  {
+    display:flex;
+    flex-direction:column;
+    gap:0px;
+  }
+
+  .links
+  {
+    gap:12px;
+    margin-top:50px;
+  }
+  
+  .first
+  {
+    width:101vw;
+    height:400px;
+    margin-left:20px;
+  }
+
+  .weare
+  {
+    font-size:30px;
+    margin-left:105px;
+  }
+
+  .first-img{
+    max-width: 105%;
+    height: 110vh;
+    display: block;
+    margin: 0 auto;
+    max-height: 100vh;
+    margin-left:-20px;
+  }
+
+  .textdiv
+  {
+    display: flex;
+    flex-direction: column;
+    items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    width:250px;
+  }
+
+  .line
+  {
+    width:320px;
+    margin-left:0px;
+    left:-40px;
+    width:300px;
+  }
+
+  .bottom-content{
+    left:-30px;
+  }
+
+  .last
+  {
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    width:320px;
+  }
+
+  .icons
+  {
+    margin-right:100px;
+    gap:10px;
+  }
+
+  .about-us
+  {
+    display:flex;
+    flex-direction:column;
+    width:90vw;
+    margin-left:-50px;
+    text-align:center;
+  }
+
+  .about-title
+  {
+    margin-left:125px;
+  }
+
+  .about-image
+  {
+    width:200px;
+    margin-left:-50px;
+    display:flex;
+    flex-direction:column;
+    height:500px;
+    margin-top:-60px;
+  }
+
+  .journey
+  {
+    position:absolute;
+    top:1200px;
+  }
+
+  .img-abt
+  {
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+  }
+
+  .gra
+  {
+    display:none;
+  }
+
+  .team
+  {
+    position:absolute;
+    top:1950px;
+  }
+
+  .j-content
+  {
+    display:flex;
+    flex-direction:column;
+  }
+
+  .select-bar,.oj
+  {
+    width:320px;
+    margin-left:-120px;
+  }
+
+  .ofv
+  {
+    left:45px;
+  }
+
+  .journey-img{
+    width:300px;
+    margin-left:-100px;
+  }
+
+  .ji
+  {
+    width:300px;
+    margin-left:-125px;
+    margin-top:-130px;
+  }
+
+  .eve
+  {
+    width:300px;
+    text-align:center;
+  }
+
+  .foot
+  {
+    position:relative;
+    top:495vh;
+    overflow:visible;
+  }
+
+  .fhtl
+  {
+    font-size:20px;
+  }
+
+  .fhtln
+  {
+    font-size:20px;
+    width:300px;
+    text-align:center;
+  }
+
+  .divalign
+  {
+    display:flex;
+    flex-direction:column;
+  }
+}
