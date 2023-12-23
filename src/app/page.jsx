@@ -149,7 +149,7 @@ const Home = () => {
         </div>
         <div class='overflow-clip'>
           <p class='font-normal sm:text-sm  lg:text-left lg:ml-0 sm:text-center'>
-            HackCode 2.0 serves as a platform to encourage enthusiastic minds to brainstorm on solutions for challenging issues from all over India. The unified motive of gathering all like-minded hackers to the institution is what led to the creation of the idea, the first of its kind. We'll provide a platform for innovations, where developers can test and showcase their potential to the best of their abilities.
+            HackCode 2.0 serves as a platform to encourage enthusiastic minds to brainstorm on solutions for challenging issues from all over India. The unified motive of gathering all like-minded hackers to the institution is what led to the creation of the idea, the first of its kind. Well provide a platform for innovations, where developers can test and showcase their potential to the best of their abilities.
           </p>
         </div>
       </div>
