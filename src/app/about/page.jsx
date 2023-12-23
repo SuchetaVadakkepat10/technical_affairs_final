@@ -11,7 +11,7 @@ const Home1 = () => {
 
 
   return (
-    <div className="relative bg-text-color lg:w-full sm:w-full h-[2721px] overflow-x-hidden text-center text-base text-text-color font-image-text">
+    <div className="relative bg-white lg:w-full sm:w-full h-[2721px] overflow-x-hidden text-center text-base text-white font-image-text">
       <div className="absolute top-[0px] left-[-26px] lg:w-[101vw] lg:h-[401px] overflow-hidden text-29xl first">
         <div className="absolute top-[712px] left-[687px] flex flex-row items-start justify-start gap-[16px] opacity-[0]">
           <div className="relative rounded-[50%] bg-black w-[15px] h-[15px]" />
@@ -34,10 +34,10 @@ const Home1 = () => {
             About Us
           </div>
           <div class="capitalize inline-block md:w-full lg:w-[600px] lg:text-9xl sm:text-2xl md:text-2xl">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
           </div>
         </div>
-        <div className="relative flex flex-row w-[510px] h-[183px] text-xs text-text-color font-image-text about-image">
+        <div className="relative flex flex-row w-[510px] h-[183px] text-xs text-white font-image-text about-image">
           <div className=" rounded-tl-3xs rounded-tr-none rounded-b-none w-[255px] h-[182.7px] overflow-hidden img-abt">
             <img
               className=" w-[268px] h-[406px] object-cover"
