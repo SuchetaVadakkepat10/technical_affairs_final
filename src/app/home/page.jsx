@@ -142,7 +142,7 @@ const Home = () => {
   </div>
 </div>
       <p className='lg:ml-0 font-normal'>
-      HackCode 2.0 Serves As A Platform To Encourage Enthusiastic Minds To Brainstorm On Solutions For Challenging Issues From All Over India. The Unified Motive Of Gathering All Like-Minded Hackers To The Institution Is What Led To The Creation Of The Idea, The First Of Its Kind. We'll Provide A Platform For Innovations, Where Developers Can Test And Showcase Their Potential To The Best Of Their Abilities.
+      HackCode 2.0 Serves As A Platform To Encourage Enthusiastic Minds To Brainstorm On Solutions For Challenging Issues From All Over India. The Unified Motive Of Gathering All Like-Minded Hackers To The Institution Is What Led To The Creation Of The Idea, The First Of Its Kind. Well Provide A Platform For Innovations, Where Developers Can Test And Showcase Their Potential To The Best Of Their Abilities.
       </p>
     </div>
     
