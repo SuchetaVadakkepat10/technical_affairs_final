@@ -66,98 +66,107 @@ const Home = () => {
 </div>
 
 
+    
 <div className="relative bg-[url('/frame.png')] bg-cover bg-no-repeat bg-[top] text-center mb-8">
       <div className="flex flex-col items-center justify-center gap-4 mt-8">
-        <div className="rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[100px] flex items-center justify-center p-1 box-border h-10 mt-8" style={{ borderRadius: '10px' }}>
-          <p className='text-xs sm:text-sm eve'>Events</p>
+        <div className="sm:justify-center rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[100px] flex items-center justify-center p-1 box-border h-10 mt-8" style={{ borderRadius: '10px' }}>
+          <p className='text-xs sm:text-sm'>Events</p>
         </div>
-        <h1 className='text-white'>Know what is happening in tech around IIITDM</h1>
+        <h1 className='text-normal text-white'>Know what is happening in tech around IIITDM</h1>
       </div>
-      <div className="flex flex-col sm:flex-row items-center justify-between mt-8 sm:mx-16">
-        <div className="sm:w-1/2 sm:mb-12">
-        <div className="w-[200px] flex flex-col items-start justify-start text-left text-xl select-bar text-white mb-18">
-                  <div className="font-semibold relative w-[200px] h-[50px] cursor-pointer hover:[background:linear-gradient(90deg,_#acddf9,_#879cfd)] hover:text-black" onClick={() => (setImage('/unsplashmxvkwpijals1@2x.png'))}>
+      <div className="flex flex-col sm:flex-row items-center justify-between mt-8 sm:mx-4 sm:mb-12">
+        <div className="sm:w-1/4 sm:justify-center sm:mb-8">
+        <div className="w-[100px] flex flex-col items-start justify-start text-left text-xl select-bar text-white mb-18 sm:w-[200px]">
+                  <div className="relative w-[200px] cursor-pointer hover:[background:linear-gradient(90deg,_#acddf9,_#879cfd)] h-[50px] hover:text-black"  onClick={() => (setImage('/unsplashmxvkwpijals1@2x.png'))}>
                     <div className="absolute top-[0px] left-[0px] rounded-8xs  w-[120px] h-[50px]" />
                     <div className="absolute top-[12px] left-[10px] capitalize font-medium inline-block w-[373.8px] ofv">
                       Hackathon 2.0
                     </div>
                   </div>
-                  <div className="relative w-[200px] sm:w-full cursor-pointer hover:[background:linear-gradient(90deg,_#acddf9,_#879cfd)] h-[50px] hover:text-black"  onClick={() => (setImage('/unsplashmxvkwpijals1@2x.png'))}>
-                    <div className="absolute top-[0px] left-[0px] rounded-8xs w-[551px] h-[50px]" />
+                  <div className="relative w-[200px] cursor-pointer hover:[background:linear-gradient(90deg,_#acddf9,_#879cfd)] h-[50px] hover:text-black"  onClick={() => (setImage('/unsplashmxvkwpijals1@2x.png'))}>
+                    <div className="absolute top-[0px] left-[0px] rounded-8xs w-[120px] h-[50px]" />
                     <div className="absolute top-[12px] left-[10px] capitalize font-medium inline-block w-[373.8px] ofv">
                       Event 2
                     </div>
                   </div>
                   <div className="relative w-[200px] h-[50px] cursor-pointer hover:[background:linear-gradient(90deg,_#acddf9,_#879cfd)] hover:text-black"  onClick={() => (setImage('/unsplashmxvkwpijals1@2x.png'))}>
-                    <div className="absolute top-[0px] left-[0px] rounded-8xs w-[551px] h-[50px]" />
+                    <div className="absolute top-[0px] left-[0px] rounded-8xs w-[120px] h-[50px]" />
                     <div className="absolute top-[12px] left-[10px] capitalize font-medium inline-block w-[373.8px] ofv">
                     Event 3
                     </div>
                   </div>
                   <div className="relative w-[200px] h-[50px] cursor-pointer hover:[background:linear-gradient(90deg,_#acddf9,_#879cfd)] hover:text-black"  onClick={() => (setImage('/unsplashmxvkwpijals1@2x.png'))}>
-                    <div className="absolute top-[0px] left-[0px] rounded-8xs w-[551px] h-[50px]" />
+                    <div className="absolute top-[0px] left-[0px] rounded-8xs w-[120px] h-[50px]" />
                     <div className="absolute top-[12px] left-[10px] capitalize font-medium inline-block w-[373.8px] ofv">
                     Event 4
                     </div>
                   </div>
                   <div className="relative w-[200px] h-[50px] cursor-pointer hover:[background:linear-gradient(90deg,_#acddf9,_#879cfd)] hover:text-black" onClick={() => (setImage('/unsplashmxvkwpijals1@2x.png'))}>
-                    <div className="absolute top-[0px] left-[0px] rounded-8xs  w-[551px] h-[50px]" />
+                    <div className="absolute top-[0px] left-[0px] rounded-8xs  w-[120px] h-[50px]" />
                     <div className="absolute top-[12px] left-[10px] capitalize font-medium inline-block w-[373.8px] ofv">
                     Event 5
                     </div>
                   </div>
                   <div className="relative w-[200px] h-[50px] cursor-pointer hover:[background:linear-gradient(90deg,_#acddf9,_#879cfd)] hover:text-black" onClick={() => (setImage('/unsplashmxvkwpijals1@2x.png'))}>
-                    <div className="absolute top-[0px] left-[0px] rounded-8xs  w-[551px] h-[50px]" />
+                    <div className="absolute top-[0px] left-[0px] rounded-8xs  w-[120px] h-[50px]" />
                     <div className="absolute top-[12px] left-[10px] capitalize font-medium inline-block w-[373.8px] ofv">
                     Event 6
                     </div>
                   </div>
                   <div className="relative w-[200px] h-[50px] cursor-pointer hover:[background:linear-gradient(90deg,_#acddf9,_#879cfd)] hover:text-black mb-12" onClick={() => (setImage('/unsplashmxvkwpijals1@2x.png'))}>
-                    <div className="absolute top-[0px] left-[0px] rounded-8xs  w-[551px] h-[50px]" />
+                    <div className="absolute top-[0px] left-[0px] rounded-8xs  w-[120px] h-[50px]" />
                     <div className="absolute top-[12px] left-[10px] capitalize font-medium inline-block w-[373.8px] ofv">
                     Event 7
                     </div>
                   </div>
               </div>
         </div>
-        <div className="sm:w-full lg:mt-0 sm:mt-4">
-        <div className="flex flex-col items-end justify-start gap-[0px] text-left text-normal text-white ji">
-            <div class="flex flex-col items-left justify-left">
-        
-      </div>
-  <div class="flex flex-col sm:flex-row items-center text-left sm:gap-18">
+
+
+
+
+        {/* Next section */}
+
   
-  <div className="sm:w-full lg:mt-0 sm:mt-20">
-    <h1 className='text-normal text-left'>Hack Code 2.0</h1>
-      <h2 className='lg:ml-0'>We are Technical Affairs IIITDM</h2>
-      <div className="flex justify-between text-black font-semibold">
-  <div className="rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[100px] flex items-center justify-center p-1 box-border h-10 mt-8" style={{ borderRadius: '10px' }}>
-    <p className='text-xs sm:text-sm'>7/11/23</p>
-  </div>
-  <div className="rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[100px] flex items-center justify-center p-1 box-border h-10 mt-8" style={{ borderRadius: '10px' }}>
-    <p className='text-xs sm:text-sm'>5 PM</p>
-  </div>
-  <div className="rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[100px] flex items-center justify-center p-1 box-border h-10 mt-8" style={{ borderRadius: '10px' }}>
-    <p className='text-xs sm:text-sm'>H05</p>
+<div className="sm:w-3/4 lg:start-12 ml-0 sm:ml-0 mt-4 sm:mt-0">
+  <div className="flex flex-col items-center sm:flex-row sm:items-start justify-center text-center sm:text-center text-white">
+    <div className="flex flex-col sm:flex-row items-center text-center sm:text-center">
+      <div className="sm:w-full sm:mt-0">
+        <h1 className='text-normal text-center sm:text-center lg:text-left'>Hack Code 2.0</h1>
+        <h2 className='lg:ml-0 text-center sm:text-center lg:text-left '>We are Technical Affairs IIITDM</h2>
+        <div className="flex justify-start sm:justify-center text-black font-semibold">
+          <div className="flex items-left lg:space-x-20 sm:flex-col sm:justify-center lg:flex-row">
+            <div className="rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[150px] sm:w-auto flex items-center justify-center p-2 box-border h-10 mt-8" style={{ borderRadius: '10px' }}>
+              <p className='text-xs sm:text-sm'>7/11/23</p>
+            </div>
+            <div className="rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[150px] sm:w-auto flex items-center justify-center p-2 box-border h-10 mt-8" style={{ borderRadius: '10px' }}>
+              <p className='text-xs sm:text-sm'>5 PM</p>
+            </div>
+            <div className="rounded-8xs bg-gradient-to-r from-[#acddf9] to-[#879cfd] w-[150px] sm:w-auto flex items-center justify-center p-2 box-border h-10 mt-8" style={{ borderRadius: '10px' }}>
+              <p className='text-xs sm:text-sm'>H05</p>
+            </div>
+          </div>
+        </div>
+        <div class='overflow-clip'>
+          <p class='font-normal sm:text-sm  lg:text-left lg:ml-0 sm:text-center'>
+            HackCode 2.0 serves as a platform to encourage enthusiastic minds to brainstorm on solutions for challenging issues from all over India. The unified motive of gathering all like-minded hackers to the institution is what led to the creation of the idea, the first of its kind. We'll provide a platform for innovations, where developers can test and showcase their potential to the best of their abilities.
+          </p>
+        </div>
+      </div>
+      <div className="sm:w-1/2 flex justify-center sm:justify-end mt-4 sm:mt-0 mr-4 sm:mr-8 lg:mr-12">
+      <Image
+                    src="/"
+                    alt="Vector"
+                    width={300}
+                    height={300}
+                  />
+      </div>
+    </div>
   </div>
 </div>
-      <p className='lg:ml-0 font-normal'>
-      HackCode 2.0 Serves As A Platform To Encourage Enthusiastic Minds To Brainstorm On Solutions For Challenging Issues From All Over India. The Unified Motive Of Gathering All Like-Minded Hackers To The Institution Is What Led To The Creation Of The Idea, The First Of Its Kind. Well Provide A Platform For Innovations, Where Developers Can Test And Showcase Their Potential To The Best Of Their Abilities.
-      </p>
-    </div>
-    
-    <div className="sm:w-1/2 flex justify-center sm:justify-end mt-4 sm:mt-0 mr-4 sm:mr-8 lg:mr-12">
-      {/* First image */}
-      <Image
-            src="/"
-            alt="Vector"
-            width={50}
-            height={50}
-          />
-    </div> 
-  </div>
-          </div>
-    </div>
+
+  
+  
   </div>
 </div>
 {/* Clubs section */}
