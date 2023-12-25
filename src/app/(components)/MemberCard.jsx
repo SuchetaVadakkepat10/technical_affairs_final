@@ -6,7 +6,7 @@ function MemberCard({name}) {
         <div className="relative w-[138px] h-[103px]">
             <div className="absolute top-[0px] left-[0px] w-[138px] h-[103px]">
                 <div className="absolute top-[0px] left-[0px] rounded-8xs [background:linear-gradient(90deg,_#acddf9,_#879cfd)] w-[138px] h-[103px]" />
-                <b className="absolute top-[64px]">
+                <b className="absolute top-[64px] left-[15px]">
                 {name}
                 </b>
                 <div className="absolute top-[80px] left-[calc(50%_-_45px)] text-3xs">
