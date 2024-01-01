@@ -20,7 +20,7 @@ const Footer = () => {
         <div className="flex flex-col items-center md:items-start gap-6 md:w-2/6">
           <div className="font-semibold text-whitesmoke">
             <Image
-              src="/tech_affairs_logo.jpeg"
+              src="/B2BG.png"
               alt="Tech Affairs Logo"
               width={80}
               height={80}
